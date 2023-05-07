@@ -7,3 +7,4 @@ La antaŭa kodo de la retejo estas malfermfonta, bonvena helpi optimumigi la tra
 * [antaŭa kodo](https://github.com/xxai-art/web)
 * [Lingvaj pakoj por la retejo kiel tutaĵo](https://github.com/xxai-art/web/tree/main/i18n)
 * [Lingvaj pakoj por ensalutmoduloj](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [Retejo Plurlingva Dokumentado](https://github.com/xxai-doc)
