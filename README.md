@@ -2,9 +2,29 @@
 
 # xxAI.art
 
-La antaŭa kodo de la retejo estas malfermfonta, bonvena helpi optimumigi la tradukon
+Parto de la retejo-kodo estas malferma fonto, bonvena helpi optimumigi la tradukon.
+
+## antaŭa kodo
 
 * [antaŭa kodo](https://github.com/xxai-art/web)
-* [Lingvaj pakoj por la retejo kiel tuto](https://github.com/xxai-art/web/tree/main/i18n)
+* [Lingvaj pakoj por la retejo kiel tutaĵo](https://github.com/xxai-art/web/tree/main/i18n)
 * [Lingvaj pakoj por ensalutmoduloj](https://github.com/wacpkg/user/tree/main/ui.i18n)
 * [Retejo Plurlingva Dokumentado](https://github.com/xxai-doc)
+
+La antaŭfina programlingvo estas [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , kiu aldonas kelkajn funkciojn bazitajn sur la coffeescript sintakso, vidu [./coffee_plus.md](./coffee_plus.md) .
+
+## Internaciigo de retejoj kaj dokumentoj
+
+Konstruu sur la sekvaj 3 projektoj
+
+### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+
+La markdown-ŝablono, kun la sufikso `.mdt` , povas rilati al eksteraj dosieroj kun sintakso simila al `<+ ./coffee_plus/import.js>` .
+
+[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+
+Markdown-traduko ne tradukos kodojn kaj ligilojn, kaj konservos tradukitajn frazojn. Se la traduko estas modifita sed la originala teksto ne estas modifita, ekzekuti ĝin denove ne anstataŭigos la modifon de la traduko.
+
+[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+
+Lingvaj dosieroj por traduki `yaml` generitajn retejojn.
