@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+Oni rekomendas instali nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) unue, kaj poste `direnv allow` post eniro de la dosierujo ( [la .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) estos ekzekutita aŭtomate post eniro de la dosierujo).
 
-Parto de la retejo-kodo estas malferma fonto, bonvena helpi optimumigi la tradukon.
+La signifo estas: ĉina traduko al japana, korea, angla, angla traduko al ĉiuj aliaj lingvoj. Se vi volas nur subteni la ĉinan kaj la anglan, vi povas simple skribi `zh: en` .
 
-## antaŭa kodo
+La signifo estas: ĉina traduko al japana, korea, angla, angla traduko al ĉiuj aliaj lingvoj. Se vi volas nur subteni la ĉinan kaj la anglan, vi povas simple skribi `zh: en` .
 
 * [antaŭa kodo](https://github.com/xxai-art/web)
 * [Lingvaj pakoj por la retejo kiel tutaĵo](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@ Konstruu sur la sekvaj 3 projektoj
 
 ### Instrukcioj pri Aŭtomatiga Tradukado de Dokumentoj
 
-Vidu deponejon [xxai-art/doc](https://github.com/xxai-art/doc)
+Vidu koddeponejon [xxai-art/doc](https://github.com/xxai-art/doc)
 
-Oni rekomendas instali nodejs, [direnv](https://direnv.net) kaj [bun](https://github.com/oven-sh/bun) unue, kaj poste ruli `direnv allow` post eniro de la dosierujo.
+Oni rekomendas instali nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) unue, kaj poste `direnv allow` post eniro de la dosierujo ( [la .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) estos ekzekutita aŭtomate post eniro de la dosierujo).
 
-Por eviti tro grandajn magazenojn tradukitajn al centoj da lingvoj, mi kreis apartan kodstokejon por ĉiu lingvo kaj kreis organizon por konservi ĉi tiun magazenon.
+Por eviti la grandan kodbazon tradukitan en centojn da lingvoj, mi kreis apartan kodbazon por ĉiu lingvo kaj kreis organizon por konservi la kodbazon.
 
-Agordi la mediovariablon `GITHUB_ACCESS_TOKEN` kaj poste ruli [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) aŭtomate kreos la magazenon.
+Agordi la mediovariablon `GITHUB_ACCESS_TOKEN` kaj poste ruli [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) aŭtomate kreos la koddeponejon.
 
-Kompreneble, vi ankaŭ povas meti ĝin en magazenon.
+Kompreneble, vi ankaŭ povas meti ĝin en kodan bazon.
 
 Traduka skripto-referenco [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Google API estas uzata por senpaga tradukado. Se vi ne povas aliri Guglon, bonvo
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-La traduka skripto generos tradukan kaŝmemoron en dosierujo `.i18n` , bonvolu kontroli ĝin per `git status` kaj aldonu ĝin al la koda deponejo por eviti ripetajn tradukojn.
+La traduka skripto generos tradukitan kaŝmemoron en dosierujo `.i18n` , bonvolu kontroli ĝin per `git status` kaj aldonu ĝin al la koda deponejo por eviti ripetajn tradukojn.
+
+Bonvolu ruli `bunx i18n` ĉiufoje kiam vi modifas la tradukon por ĝisdatigi la kaŝmemoron.
+
+Se la originala teksto kaj la traduko estas modifitaj samtempe, la kaŝmemoro estos konfuzita, do se vi volas modifi, vi povas modifi nur unu, kaj poste ruli `bunx i18n` por ĝisdatigi la kaŝmemoron.
