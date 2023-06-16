@@ -17,14 +17,14 @@ La antaŭfina programlingvo estas [@w5/coffee_plus](http://npmjs.com/@w5/coffee_
 
 Konstruu sur la sekvaj 3 projektoj
 
-### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
 
-La markdown-ŝablono, kun la sufikso `.mdt` , povas rilati al eksteraj dosieroj kun sintakso simila al `<+ ./coffee_plus/import.js>` .
+  La sufikso estas `.mdt` , vi povas uzi la sintakson similan al `<+ ./coffee_plus/import.js>` por rilati al eksteraj dosieroj, kaj generi markdown per la sufikso `.md` .
 
-[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
 
-Markdown-traduko ne tradukos kodojn kaj ligilojn, kaj konservos tradukitajn frazojn. Se la traduko estas modifita sed la originala teksto ne estas modifita, ekzekuti ĝin denove ne anstataŭigos la modifon de la traduko.
+  Markdown-traduko ne tradukos kodojn kaj ligilojn, kaj konservos tradukitajn frazojn. Se la traduko estas modifita sed la originala teksto ne estas modifita, ekzekuti ĝin denove ne anstataŭigos la modifon de la traduko.
 
-[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
 
-Lingvaj dosieroj por traduki `yaml` generitajn retejojn.
+  Lingvaj dosieroj por traduki `yaml` generitajn retejojn.
